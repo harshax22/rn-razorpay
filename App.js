@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, StyleSheet, View, TextInput } from 'react-native';
+import { Button, StyleSheet, View } from 'react-native';
 
 import RazorpayCheckout from 'react-native-razorpay';
 
@@ -33,9 +33,6 @@ export default class Checkout extends Component {
   render(){
     return (
       <View style={styles.container}>
-        <View>
-       
-        </View>
         <View style={styles.buttonContainer}>
         <Button
         onPress={this._onPressButton}
